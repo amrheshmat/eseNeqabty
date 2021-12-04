@@ -1,0 +1,38 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class RequestStatus extends Model
+{
+    protected $table        = 'dbo.RequestStatus';
+/*
+[RequestStatusID]
+      ,[RequestStatusName]
+      ,[CreatorID]
+      ,[CreatDate]
+      ,[ModifierID]
+      ,[ModifyDate]
+*/
+    /*
+     RequestStatusID	RequestStatusName
+1	Êã ÇáØáÈ
+2	ãäÊåì
+3	ãáÛì
+4	Êã ÇáÑÝÖ
+5	Êã ÇáÊÃÌíá
+6	ÇÓÊíÝÇÁ ÇæÑÇÞ
+7	ãÞÇÈáÉ
+8	Êã ÇáãæÇÝÞÉ
+9	Êã ÇáÇÚÊãÇÏ
+     */
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+    ];
+}
